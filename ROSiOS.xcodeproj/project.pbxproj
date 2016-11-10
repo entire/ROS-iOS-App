@@ -19,14 +19,14 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		8F5D330F76EC820C14E12D3F /* libPods-ROSiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 960B638E7FC978FB5B2F4487 /* libPods-ROSiOS.a */; };
-		9DBF5B0B1DD3FA3A00955FC4 /* JSKListenerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5AFA1DD3FA3A00955FC4 /* JSKListenerViewController.mm */; };
-		9DBF5B0C1DD3FA3A00955FC4 /* JSKTalkerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5AFC1DD3FA3A00955FC4 /* JSKTalkerViewController.mm */; };
-		9DBF5B0D1DD3FA3A00955FC4 /* JSKTopicListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5AFE1DD3FA3A00955FC4 /* JSKTopicListTableViewCell.m */; };
-		9DBF5B0E1DD3FA3A00955FC4 /* JSKTopicListTableViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5AFF1DD3FA3A00955FC4 /* JSKTopicListTableViewController.mm */; };
-		9DBF5B0F1DD3FA3A00955FC4 /* JSKViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B011DD3FA3A00955FC4 /* JSKViewController.mm */; };
-		9DBF5B101DD3FA3A00955FC4 /* JSKROSListenerNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B041DD3FA3A00955FC4 /* JSKROSListenerNode.mm */; };
-		9DBF5B111DD3FA3A00955FC4 /* JSKROSTalkerNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B061DD3FA3A00955FC4 /* JSKROSTalkerNode.mm */; };
-		9DBF5B121DD3FA3A00955FC4 /* JSKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B081DD3FA3A00955FC4 /* JSKAppDelegate.m */; };
+		9DBF5B2A1DD3FAD000955FC4 /* JSKListenerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B191DD3FAD000955FC4 /* JSKListenerViewController.mm */; };
+		9DBF5B2B1DD3FAD000955FC4 /* JSKTalkerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B1B1DD3FAD000955FC4 /* JSKTalkerViewController.mm */; };
+		9DBF5B2C1DD3FAD000955FC4 /* JSKTopicListTableViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B1D1DD3FAD000955FC4 /* JSKTopicListTableViewController.mm */; };
+		9DBF5B2D1DD3FAD000955FC4 /* JSKViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B1F1DD3FAD000955FC4 /* JSKViewController.mm */; };
+		9DBF5B2E1DD3FAD000955FC4 /* JSKROSListenerNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B221DD3FAD000955FC4 /* JSKROSListenerNode.mm */; };
+		9DBF5B2F1DD3FAD000955FC4 /* JSKROSTalkerNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B241DD3FAD000955FC4 /* JSKROSTalkerNode.mm */; };
+		9DBF5B301DD3FAD000955FC4 /* JSKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B261DD3FAD000955FC4 /* JSKAppDelegate.m */; };
+		9DBF5B311DD3FAD000955FC4 /* JSKTopicListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B291DD3FAD000955FC4 /* JSKTopicListTableViewCell.m */; };
 		F85648171A71356E00A42326 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85648161A71356E00A42326 /* LaunchScreen.xib */; };
 		F856481A1A7135F400A42326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85648181A7135F400A42326 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -60,22 +60,22 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		960B638E7FC978FB5B2F4487 /* libPods-ROSiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DBF5AF91DD3FA3A00955FC4 /* JSKListenerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKListenerViewController.h; sourceTree = "<group>"; };
-		9DBF5AFA1DD3FA3A00955FC4 /* JSKListenerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKListenerViewController.mm; sourceTree = "<group>"; };
-		9DBF5AFB1DD3FA3A00955FC4 /* JSKTalkerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKTalkerViewController.h; sourceTree = "<group>"; };
-		9DBF5AFC1DD3FA3A00955FC4 /* JSKTalkerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKTalkerViewController.mm; sourceTree = "<group>"; };
-		9DBF5AFD1DD3FA3A00955FC4 /* JSKTopicListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKTopicListTableViewCell.h; sourceTree = "<group>"; };
-		9DBF5AFE1DD3FA3A00955FC4 /* JSKTopicListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSKTopicListTableViewCell.m; sourceTree = "<group>"; };
-		9DBF5AFF1DD3FA3A00955FC4 /* JSKTopicListTableViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKTopicListTableViewController.mm; sourceTree = "<group>"; };
-		9DBF5B001DD3FA3A00955FC4 /* JSKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKViewController.h; sourceTree = "<group>"; };
-		9DBF5B011DD3FA3A00955FC4 /* JSKViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKViewController.mm; sourceTree = "<group>"; };
-		9DBF5B031DD3FA3A00955FC4 /* JSKROSListenerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKROSListenerNode.h; sourceTree = "<group>"; };
-		9DBF5B041DD3FA3A00955FC4 /* JSKROSListenerNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKROSListenerNode.mm; sourceTree = "<group>"; };
-		9DBF5B051DD3FA3A00955FC4 /* JSKROSTalkerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKROSTalkerNode.h; sourceTree = "<group>"; };
-		9DBF5B061DD3FA3A00955FC4 /* JSKROSTalkerNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKROSTalkerNode.mm; sourceTree = "<group>"; };
-		9DBF5B071DD3FA3A00955FC4 /* JSKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKAppDelegate.h; sourceTree = "<group>"; };
-		9DBF5B081DD3FA3A00955FC4 /* JSKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSKAppDelegate.m; sourceTree = "<group>"; };
-		9DBF5B0A1DD3FA3A00955FC4 /* JSKTopicListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKTopicListTableViewController.h; sourceTree = "<group>"; };
+		9DBF5B181DD3FAD000955FC4 /* JSKListenerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKListenerViewController.h; sourceTree = "<group>"; };
+		9DBF5B191DD3FAD000955FC4 /* JSKListenerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKListenerViewController.mm; sourceTree = "<group>"; };
+		9DBF5B1A1DD3FAD000955FC4 /* JSKTalkerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKTalkerViewController.h; sourceTree = "<group>"; };
+		9DBF5B1B1DD3FAD000955FC4 /* JSKTalkerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKTalkerViewController.mm; sourceTree = "<group>"; };
+		9DBF5B1C1DD3FAD000955FC4 /* JSKTopicListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKTopicListTableViewController.h; sourceTree = "<group>"; };
+		9DBF5B1D1DD3FAD000955FC4 /* JSKTopicListTableViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKTopicListTableViewController.mm; sourceTree = "<group>"; };
+		9DBF5B1E1DD3FAD000955FC4 /* JSKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKViewController.h; sourceTree = "<group>"; };
+		9DBF5B1F1DD3FAD000955FC4 /* JSKViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKViewController.mm; sourceTree = "<group>"; };
+		9DBF5B211DD3FAD000955FC4 /* JSKROSListenerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKROSListenerNode.h; sourceTree = "<group>"; };
+		9DBF5B221DD3FAD000955FC4 /* JSKROSListenerNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKROSListenerNode.mm; sourceTree = "<group>"; };
+		9DBF5B231DD3FAD000955FC4 /* JSKROSTalkerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKROSTalkerNode.h; sourceTree = "<group>"; };
+		9DBF5B241DD3FAD000955FC4 /* JSKROSTalkerNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKROSTalkerNode.mm; sourceTree = "<group>"; };
+		9DBF5B251DD3FAD000955FC4 /* JSKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKAppDelegate.h; sourceTree = "<group>"; };
+		9DBF5B261DD3FAD000955FC4 /* JSKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSKAppDelegate.m; sourceTree = "<group>"; };
+		9DBF5B281DD3FAD000955FC4 /* JSKTopicListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKTopicListTableViewCell.h; sourceTree = "<group>"; };
+		9DBF5B291DD3FAD000955FC4 /* JSKTopicListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSKTopicListTableViewCell.m; sourceTree = "<group>"; };
 		BA9C435A6567C47C3DE921B6 /* Pods-ROSiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROSiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ROSiOS/Pods-ROSiOS.release.xcconfig"; sourceTree = "<group>"; };
 		F85648161A71356E00A42326 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		F85648191A7135F400A42326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ROSiOS/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 		6003F593195388D20070C39A /* ROSiOS */ = {
 			isa = PBXGroup;
 			children = (
-				9DBF5AF71DD3FA3A00955FC4 /* Source */,
+				9DBF5B161DD3FAD000955FC4 /* Source */,
 				F85648181A7135F400A42326 /* Main.storyboard */,
 				F85648161A71356E00A42326 /* LaunchScreen.xib */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -198,49 +198,49 @@
 			path = Library;
 			sourceTree = "<group>";
 		};
-		9DBF5AF71DD3FA3A00955FC4 /* Source */ = {
+		9DBF5B161DD3FAD000955FC4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				9DBF5AF81DD3FA3A00955FC4 /* Controller */,
-				9DBF5B021DD3FA3A00955FC4 /* Handlers */,
-				9DBF5B071DD3FA3A00955FC4 /* JSKAppDelegate.h */,
-				9DBF5B081DD3FA3A00955FC4 /* JSKAppDelegate.m */,
-				9DBF5B091DD3FA3A00955FC4 /* Views */,
+				9DBF5B171DD3FAD000955FC4 /* Controller */,
+				9DBF5B201DD3FAD000955FC4 /* Handlers */,
+				9DBF5B251DD3FAD000955FC4 /* JSKAppDelegate.h */,
+				9DBF5B261DD3FAD000955FC4 /* JSKAppDelegate.m */,
+				9DBF5B271DD3FAD000955FC4 /* Views */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		9DBF5AF81DD3FA3A00955FC4 /* Controller */ = {
+		9DBF5B171DD3FAD000955FC4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9DBF5AF91DD3FA3A00955FC4 /* JSKListenerViewController.h */,
-				9DBF5AFA1DD3FA3A00955FC4 /* JSKListenerViewController.mm */,
-				9DBF5AFB1DD3FA3A00955FC4 /* JSKTalkerViewController.h */,
-				9DBF5AFC1DD3FA3A00955FC4 /* JSKTalkerViewController.mm */,
-				9DBF5AFD1DD3FA3A00955FC4 /* JSKTopicListTableViewCell.h */,
-				9DBF5AFE1DD3FA3A00955FC4 /* JSKTopicListTableViewCell.m */,
-				9DBF5AFF1DD3FA3A00955FC4 /* JSKTopicListTableViewController.mm */,
-				9DBF5B001DD3FA3A00955FC4 /* JSKViewController.h */,
-				9DBF5B011DD3FA3A00955FC4 /* JSKViewController.mm */,
+				9DBF5B181DD3FAD000955FC4 /* JSKListenerViewController.h */,
+				9DBF5B191DD3FAD000955FC4 /* JSKListenerViewController.mm */,
+				9DBF5B1A1DD3FAD000955FC4 /* JSKTalkerViewController.h */,
+				9DBF5B1B1DD3FAD000955FC4 /* JSKTalkerViewController.mm */,
+				9DBF5B1C1DD3FAD000955FC4 /* JSKTopicListTableViewController.h */,
+				9DBF5B1D1DD3FAD000955FC4 /* JSKTopicListTableViewController.mm */,
+				9DBF5B1E1DD3FAD000955FC4 /* JSKViewController.h */,
+				9DBF5B1F1DD3FAD000955FC4 /* JSKViewController.mm */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		9DBF5B021DD3FA3A00955FC4 /* Handlers */ = {
+		9DBF5B201DD3FAD000955FC4 /* Handlers */ = {
 			isa = PBXGroup;
 			children = (
-				9DBF5B031DD3FA3A00955FC4 /* JSKROSListenerNode.h */,
-				9DBF5B041DD3FA3A00955FC4 /* JSKROSListenerNode.mm */,
-				9DBF5B051DD3FA3A00955FC4 /* JSKROSTalkerNode.h */,
-				9DBF5B061DD3FA3A00955FC4 /* JSKROSTalkerNode.mm */,
+				9DBF5B211DD3FAD000955FC4 /* JSKROSListenerNode.h */,
+				9DBF5B221DD3FAD000955FC4 /* JSKROSListenerNode.mm */,
+				9DBF5B231DD3FAD000955FC4 /* JSKROSTalkerNode.h */,
+				9DBF5B241DD3FAD000955FC4 /* JSKROSTalkerNode.mm */,
 			);
 			path = Handlers;
 			sourceTree = "<group>";
 		};
-		9DBF5B091DD3FA3A00955FC4 /* Views */ = {
+		9DBF5B271DD3FAD000955FC4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9DBF5B0A1DD3FA3A00955FC4 /* JSKTopicListTableViewController.h */,
+				9DBF5B281DD3FAD000955FC4 /* JSKTopicListTableViewCell.h */,
+				9DBF5B291DD3FAD000955FC4 /* JSKTopicListTableViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -399,15 +399,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DBF5B111DD3FA3A00955FC4 /* JSKROSTalkerNode.mm in Sources */,
-				9DBF5B101DD3FA3A00955FC4 /* JSKROSListenerNode.mm in Sources */,
-				9DBF5B0D1DD3FA3A00955FC4 /* JSKTopicListTableViewCell.m in Sources */,
-				9DBF5B121DD3FA3A00955FC4 /* JSKAppDelegate.m in Sources */,
+				9DBF5B2F1DD3FAD000955FC4 /* JSKROSTalkerNode.mm in Sources */,
+				9DBF5B2D1DD3FAD000955FC4 /* JSKViewController.mm in Sources */,
+				9DBF5B2E1DD3FAD000955FC4 /* JSKROSListenerNode.mm in Sources */,
+				9DBF5B2C1DD3FAD000955FC4 /* JSKTopicListTableViewController.mm in Sources */,
+				9DBF5B311DD3FAD000955FC4 /* JSKTopicListTableViewCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.mm in Sources */,
-				9DBF5B0B1DD3FA3A00955FC4 /* JSKListenerViewController.mm in Sources */,
-				9DBF5B0E1DD3FA3A00955FC4 /* JSKTopicListTableViewController.mm in Sources */,
-				9DBF5B0C1DD3FA3A00955FC4 /* JSKTalkerViewController.mm in Sources */,
-				9DBF5B0F1DD3FA3A00955FC4 /* JSKViewController.mm in Sources */,
+				9DBF5B2A1DD3FAD000955FC4 /* JSKListenerViewController.mm in Sources */,
+				9DBF5B2B1DD3FAD000955FC4 /* JSKTalkerViewController.mm in Sources */,
+				9DBF5B301DD3FAD000955FC4 /* JSKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
