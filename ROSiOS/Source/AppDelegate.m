@@ -7,16 +7,16 @@
 //
 
 #import "AppDelegate.h"
+#import "ROSSetupHandler.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    /*
-    [ROSConfigurationUtil insertROSConfigurationAsInitialInterfaceOfWindow:self.window
-                                                              withNodeName:@"ros_ios" // ROS Node Name
-                                                                 anonymous:YES]; // set anonymous option
-     */
+    
+    [ROSSetupHandler insertROSConfigurationAsInitialInterfaceOfWindow:self.window
+                                                         withNodeName:@"ros_display_ios" // ROS Node Name
+                                                            anonymous:YES]; // set anonymous option
     
     return YES;
 }

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "ROSiOS.app"
-               BlueprintName = "ROSiOS"
-               ReferencedContainer = "container:ROSiOS.xcodeproj">
+               BuildableName = "ROS-Display.app"
+               BlueprintName = "ROS-Display"
+               ReferencedContainer = "container:ROS-Display.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
                BuildableName = "Tests.xctest"
                BlueprintName = "Tests"
-               ReferencedContainer = "container:ROSiOS.xcodeproj">
+               ReferencedContainer = "container:ROS-Display.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "ROSiOS.app"
-            BlueprintName = "ROSiOS"
-            ReferencedContainer = "container:ROSiOS.xcodeproj">
+            BuildableName = "ROS-Display.app"
+            BlueprintName = "ROS-Display"
+            ReferencedContainer = "container:ROS-Display.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "ROSiOS.app"
-            BlueprintName = "ROSiOS"
-            ReferencedContainer = "container:ROSiOS.xcodeproj">
+            BuildableName = "ROS-Display.app"
+            BlueprintName = "ROS-Display"
+            ReferencedContainer = "container:ROS-Display.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "ROSiOS.app"
-            BlueprintName = "ROSiOS"
-            ReferencedContainer = "container:ROSiOS.xcodeproj">
+            BuildableName = "ROS-Display.app"
+            BlueprintName = "ROS-Display"
+            ReferencedContainer = "container:ROS-Display.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
