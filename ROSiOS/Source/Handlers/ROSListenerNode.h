@@ -1,5 +1,5 @@
 //
-//  JSKROSListenerNode.h
+//  ROSListenerNode.h
 //  ROSiOS
 //
 //  Created by FurutaYuki on 1/25/15.
@@ -12,18 +12,18 @@
 
 #import <boost/thread/thread.hpp>
 
-#import "JSKListenerViewController.h"
+#import "ListenerViewController.h"
 
-class JSKROSListenerNode {
+class ROSListenerNode {
     ros::NodeHandle nh_;
     ros::Subscriber sub_;
     
     boost::thread *th_;
 public:
-    JSKListenerViewController __weak *listenerViewController;
+    ListenerViewController __weak *listenerViewController;
     
-    JSKROSListenerNode();
-    ~JSKROSListenerNode();
+    ROSListenerNode();
+    ~ROSListenerNode();
     
     void spin();
     void chatterCB(const std_msgs::String::ConstPtr&);

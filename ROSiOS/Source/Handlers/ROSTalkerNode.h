@@ -1,5 +1,5 @@
 //
-//  JSKROSTalkerNode.h
+//  ROSTalkerNode.h
 //  ROSiOS
 //
 //  Created by FurutaYuki on 1/25/15.
@@ -10,18 +10,18 @@
 #import <string>
 #import <ros/ros.h>
 #import <boost/thread/thread.hpp>
-#import "JSKTalkerViewController.h"
+#import "TalkerViewController.h"
 
 
-class JSKROSTalkerNode {
+class ROSTalkerNode {
     ros::NodeHandle nh_;
     ros::Publisher pub_;
     
     boost::thread *th_;
     
 public:    
-    JSKROSTalkerNode();
-    ~JSKROSTalkerNode();
+    ROSTalkerNode();
+    ~ROSTalkerNode();
     void spin();
     std::string publish(int);
 };

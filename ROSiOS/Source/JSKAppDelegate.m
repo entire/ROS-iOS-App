@@ -7,15 +7,16 @@
 //
 
 #import "JSKAppDelegate.h"
-#import <ROSiOS/ROSConfigurationUtil.h>
 
 @implementation JSKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    /*
     [ROSConfigurationUtil insertROSConfigurationAsInitialInterfaceOfWindow:self.window
                                                               withNodeName:@"ros_ios" // ROS Node Name
                                                                  anonymous:YES]; // set anonymous option
+     */
     
     return YES;
 }

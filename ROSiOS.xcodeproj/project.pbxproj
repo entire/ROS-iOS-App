@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,15 +19,14 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		8F5D330F76EC820C14E12D3F /* libPods-ROSiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 960B638E7FC978FB5B2F4487 /* libPods-ROSiOS.a */; };
-		9DBF5B2A1DD3FAD000955FC4 /* JSKListenerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B191DD3FAD000955FC4 /* JSKListenerViewController.mm */; };
-		9DBF5B2B1DD3FAD000955FC4 /* JSKTalkerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B1B1DD3FAD000955FC4 /* JSKTalkerViewController.mm */; };
-		9DBF5B2C1DD3FAD000955FC4 /* JSKTopicListTableViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B1D1DD3FAD000955FC4 /* JSKTopicListTableViewController.mm */; };
-		9DBF5B2D1DD3FAD000955FC4 /* JSKViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B1F1DD3FAD000955FC4 /* JSKViewController.mm */; };
-		9DBF5B2E1DD3FAD000955FC4 /* JSKROSListenerNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B221DD3FAD000955FC4 /* JSKROSListenerNode.mm */; };
-		9DBF5B2F1DD3FAD000955FC4 /* JSKROSTalkerNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B241DD3FAD000955FC4 /* JSKROSTalkerNode.mm */; };
+		9DBF5B2A1DD3FAD000955FC4 /* ListenerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B191DD3FAD000955FC4 /* ListenerViewController.mm */; };
+		9DBF5B2B1DD3FAD000955FC4 /* TalkerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B1B1DD3FAD000955FC4 /* TalkerViewController.mm */; };
+		9DBF5B2C1DD3FAD000955FC4 /* TopicListTableViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B1D1DD3FAD000955FC4 /* TopicListTableViewController.mm */; };
+		9DBF5B2E1DD3FAD000955FC4 /* ROSListenerNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B221DD3FAD000955FC4 /* ROSListenerNode.mm */; };
+		9DBF5B2F1DD3FAD000955FC4 /* ROSTalkerNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B241DD3FAD000955FC4 /* ROSTalkerNode.mm */; };
 		9DBF5B301DD3FAD000955FC4 /* JSKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B261DD3FAD000955FC4 /* JSKAppDelegate.m */; };
 		9DBF5B311DD3FAD000955FC4 /* JSKTopicListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B291DD3FAD000955FC4 /* JSKTopicListTableViewCell.m */; };
-		9DBF5B341DD3FBB300955FC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B331DD3FBB300955FC4 /* ViewController.swift */; };
+		9DBF5B341DD3FBB300955FC4 /* FlightDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B331DD3FBB300955FC4 /* FlightDisplayViewController.swift */; };
 		9DBF5B491DD3FC6600955FC4 /* Attitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B371DD3FC6600955FC4 /* Attitude.swift */; };
 		9DBF5B4A1DD3FC6600955FC4 /* AttitudeReferenceIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B381DD3FC6600955FC4 /* AttitudeReferenceIndex.swift */; };
 		9DBF5B4B1DD3FC6600955FC4 /* BankIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B391DD3FC6600955FC4 /* BankIndicator.swift */; };
@@ -45,6 +44,7 @@
 		9DBF5B571DD3FC6600955FC4 /* TapeCellTriad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B461DD3FC6600955FC4 /* TapeCellTriad.swift */; };
 		9DBF5B581DD3FC6600955FC4 /* TapeIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B471DD3FC6600955FC4 /* TapeIndicator.swift */; };
 		9DBF5B591DD3FC6600955FC4 /* TapePointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B481DD3FC6600955FC4 /* TapePointer.swift */; };
+		9DBF5B5B1DD401F700955FC4 /* ROSConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF5B5A1DD401F700955FC4 /* ROSConfigViewController.swift */; };
 		F85648171A71356E00A42326 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85648161A71356E00A42326 /* LaunchScreen.xib */; };
 		F856481A1A7135F400A42326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85648181A7135F400A42326 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -78,23 +78,21 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		960B638E7FC978FB5B2F4487 /* libPods-ROSiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DBF5B181DD3FAD000955FC4 /* JSKListenerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKListenerViewController.h; sourceTree = "<group>"; };
-		9DBF5B191DD3FAD000955FC4 /* JSKListenerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKListenerViewController.mm; sourceTree = "<group>"; };
-		9DBF5B1A1DD3FAD000955FC4 /* JSKTalkerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKTalkerViewController.h; sourceTree = "<group>"; };
-		9DBF5B1B1DD3FAD000955FC4 /* JSKTalkerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKTalkerViewController.mm; sourceTree = "<group>"; };
-		9DBF5B1C1DD3FAD000955FC4 /* JSKTopicListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKTopicListTableViewController.h; sourceTree = "<group>"; };
-		9DBF5B1D1DD3FAD000955FC4 /* JSKTopicListTableViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKTopicListTableViewController.mm; sourceTree = "<group>"; };
-		9DBF5B1E1DD3FAD000955FC4 /* JSKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKViewController.h; sourceTree = "<group>"; };
-		9DBF5B1F1DD3FAD000955FC4 /* JSKViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKViewController.mm; sourceTree = "<group>"; };
-		9DBF5B211DD3FAD000955FC4 /* JSKROSListenerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKROSListenerNode.h; sourceTree = "<group>"; };
-		9DBF5B221DD3FAD000955FC4 /* JSKROSListenerNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKROSListenerNode.mm; sourceTree = "<group>"; };
-		9DBF5B231DD3FAD000955FC4 /* JSKROSTalkerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKROSTalkerNode.h; sourceTree = "<group>"; };
-		9DBF5B241DD3FAD000955FC4 /* JSKROSTalkerNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKROSTalkerNode.mm; sourceTree = "<group>"; };
+		9DBF5B181DD3FAD000955FC4 /* ListenerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListenerViewController.h; sourceTree = "<group>"; };
+		9DBF5B191DD3FAD000955FC4 /* ListenerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ListenerViewController.mm; sourceTree = "<group>"; };
+		9DBF5B1A1DD3FAD000955FC4 /* TalkerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkerViewController.h; sourceTree = "<group>"; };
+		9DBF5B1B1DD3FAD000955FC4 /* TalkerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TalkerViewController.mm; sourceTree = "<group>"; };
+		9DBF5B1C1DD3FAD000955FC4 /* TopicListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicListTableViewController.h; sourceTree = "<group>"; };
+		9DBF5B1D1DD3FAD000955FC4 /* TopicListTableViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TopicListTableViewController.mm; sourceTree = "<group>"; };
+		9DBF5B211DD3FAD000955FC4 /* ROSListenerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROSListenerNode.h; sourceTree = "<group>"; };
+		9DBF5B221DD3FAD000955FC4 /* ROSListenerNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ROSListenerNode.mm; sourceTree = "<group>"; };
+		9DBF5B231DD3FAD000955FC4 /* ROSTalkerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROSTalkerNode.h; sourceTree = "<group>"; };
+		9DBF5B241DD3FAD000955FC4 /* ROSTalkerNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ROSTalkerNode.mm; sourceTree = "<group>"; };
 		9DBF5B251DD3FAD000955FC4 /* JSKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKAppDelegate.h; sourceTree = "<group>"; };
 		9DBF5B261DD3FAD000955FC4 /* JSKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSKAppDelegate.m; sourceTree = "<group>"; };
 		9DBF5B281DD3FAD000955FC4 /* JSKTopicListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKTopicListTableViewCell.h; sourceTree = "<group>"; };
 		9DBF5B291DD3FAD000955FC4 /* JSKTopicListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSKTopicListTableViewCell.m; sourceTree = "<group>"; };
-		9DBF5B331DD3FBB300955FC4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DBF5B331DD3FBB300955FC4 /* FlightDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDisplayViewController.swift; sourceTree = "<group>"; };
 		9DBF5B351DD3FC1200955FC4 /* ROSiOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ROSiOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		9DBF5B371DD3FC6600955FC4 /* Attitude.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attitude.swift; sourceTree = "<group>"; };
 		9DBF5B381DD3FC6600955FC4 /* AttitudeReferenceIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttitudeReferenceIndex.swift; sourceTree = "<group>"; };
@@ -114,6 +112,7 @@
 		9DBF5B461DD3FC6600955FC4 /* TapeCellTriad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapeCellTriad.swift; sourceTree = "<group>"; };
 		9DBF5B471DD3FC6600955FC4 /* TapeIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapeIndicator.swift; sourceTree = "<group>"; };
 		9DBF5B481DD3FC6600955FC4 /* TapePointer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapePointer.swift; sourceTree = "<group>"; };
+		9DBF5B5A1DD401F700955FC4 /* ROSConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ROSConfigViewController.swift; sourceTree = "<group>"; };
 		BA9C435A6567C47C3DE921B6 /* Pods-ROSiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROSiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ROSiOS/Pods-ROSiOS.release.xcconfig"; sourceTree = "<group>"; };
 		F85648161A71356E00A42326 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		F85648191A7135F400A42326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ROSiOS/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -253,15 +252,14 @@
 		9DBF5B171DD3FAD000955FC4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9DBF5B331DD3FBB300955FC4 /* ViewController.swift */,
-				9DBF5B181DD3FAD000955FC4 /* JSKListenerViewController.h */,
-				9DBF5B191DD3FAD000955FC4 /* JSKListenerViewController.mm */,
-				9DBF5B1A1DD3FAD000955FC4 /* JSKTalkerViewController.h */,
-				9DBF5B1B1DD3FAD000955FC4 /* JSKTalkerViewController.mm */,
-				9DBF5B1C1DD3FAD000955FC4 /* JSKTopicListTableViewController.h */,
-				9DBF5B1D1DD3FAD000955FC4 /* JSKTopicListTableViewController.mm */,
-				9DBF5B1E1DD3FAD000955FC4 /* JSKViewController.h */,
-				9DBF5B1F1DD3FAD000955FC4 /* JSKViewController.mm */,
+				9DBF5B331DD3FBB300955FC4 /* FlightDisplayViewController.swift */,
+				9DBF5B5A1DD401F700955FC4 /* ROSConfigViewController.swift */,
+				9DBF5B181DD3FAD000955FC4 /* ListenerViewController.h */,
+				9DBF5B191DD3FAD000955FC4 /* ListenerViewController.mm */,
+				9DBF5B1A1DD3FAD000955FC4 /* TalkerViewController.h */,
+				9DBF5B1B1DD3FAD000955FC4 /* TalkerViewController.mm */,
+				9DBF5B1C1DD3FAD000955FC4 /* TopicListTableViewController.h */,
+				9DBF5B1D1DD3FAD000955FC4 /* TopicListTableViewController.mm */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -269,10 +267,10 @@
 		9DBF5B201DD3FAD000955FC4 /* Handlers */ = {
 			isa = PBXGroup;
 			children = (
-				9DBF5B211DD3FAD000955FC4 /* JSKROSListenerNode.h */,
-				9DBF5B221DD3FAD000955FC4 /* JSKROSListenerNode.mm */,
-				9DBF5B231DD3FAD000955FC4 /* JSKROSTalkerNode.h */,
-				9DBF5B241DD3FAD000955FC4 /* JSKROSTalkerNode.mm */,
+				9DBF5B211DD3FAD000955FC4 /* ROSListenerNode.h */,
+				9DBF5B221DD3FAD000955FC4 /* ROSListenerNode.mm */,
+				9DBF5B231DD3FAD000955FC4 /* ROSTalkerNode.h */,
+				9DBF5B241DD3FAD000955FC4 /* ROSTalkerNode.mm */,
 			);
 			path = Handlers;
 			sourceTree = "<group>";
@@ -358,9 +356,9 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = JSK;
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = Furushchev;
+				ORGANIZATIONNAME = "Canopy Robotics";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = YP67PBW67S;
@@ -372,7 +370,7 @@
 				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ROSiOS" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -465,31 +463,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DBF5B341DD3FBB300955FC4 /* ViewController.swift in Sources */,
-				9DBF5B2F1DD3FAD000955FC4 /* JSKROSTalkerNode.mm in Sources */,
+				9DBF5B341DD3FBB300955FC4 /* FlightDisplayViewController.swift in Sources */,
+				9DBF5B2F1DD3FAD000955FC4 /* ROSTalkerNode.mm in Sources */,
 				9DBF5B511DD3FC6600955FC4 /* PitchLadder.swift in Sources */,
 				9DBF5B581DD3FC6600955FC4 /* TapeIndicator.swift in Sources */,
 				9DBF5B4A1DD3FC6600955FC4 /* AttitudeReferenceIndex.swift in Sources */,
-				9DBF5B2D1DD3FAD000955FC4 /* JSKViewController.mm in Sources */,
 				9DBF5B551DD3FC6600955FC4 /* TapeCellContainer.swift in Sources */,
 				9DBF5B4B1DD3FC6600955FC4 /* BankIndicator.swift in Sources */,
-				9DBF5B2E1DD3FAD000955FC4 /* JSKROSListenerNode.mm in Sources */,
+				9DBF5B2E1DD3FAD000955FC4 /* ROSListenerNode.mm in Sources */,
 				9DBF5B541DD3FC6600955FC4 /* TapeCell.swift in Sources */,
 				9DBF5B561DD3FC6600955FC4 /* TapeCellModel.swift in Sources */,
 				9DBF5B4E1DD3FC6600955FC4 /* Double+Additions.swift in Sources */,
 				9DBF5B4C1DD3FC6600955FC4 /* CGFloat+Additions.swift in Sources */,
 				9DBF5B571DD3FC6600955FC4 /* TapeCellTriad.swift in Sources */,
 				9DBF5B491DD3FC6600955FC4 /* Attitude.swift in Sources */,
-				9DBF5B2C1DD3FAD000955FC4 /* JSKTopicListTableViewController.mm in Sources */,
+				9DBF5B2C1DD3FAD000955FC4 /* TopicListTableViewController.mm in Sources */,
 				9DBF5B4D1DD3FC6600955FC4 /* CGSize+Additions.swift in Sources */,
 				9DBF5B4F1DD3FC6600955FC4 /* Horizon.swift in Sources */,
 				9DBF5B521DD3FC6600955FC4 /* PrimaryFlightDisplay.swift in Sources */,
 				9DBF5B311DD3FAD000955FC4 /* JSKTopicListTableViewCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.mm in Sources */,
-				9DBF5B2A1DD3FAD000955FC4 /* JSKListenerViewController.mm in Sources */,
+				9DBF5B5B1DD401F700955FC4 /* ROSConfigViewController.swift in Sources */,
+				9DBF5B2A1DD3FAD000955FC4 /* ListenerViewController.mm in Sources */,
 				9DBF5B501DD3FC6600955FC4 /* Int+Additions.swift in Sources */,
 				9DBF5B531DD3FC6600955FC4 /* Settings.swift in Sources */,
-				9DBF5B2B1DD3FAD000955FC4 /* JSKTalkerViewController.mm in Sources */,
+				9DBF5B2B1DD3FAD000955FC4 /* TalkerViewController.mm in Sources */,
 				9DBF5B301DD3FAD000955FC4 /* JSKAppDelegate.m in Sources */,
 				9DBF5B591DD3FC6600955FC4 /* TapePointer.swift in Sources */,
 			);

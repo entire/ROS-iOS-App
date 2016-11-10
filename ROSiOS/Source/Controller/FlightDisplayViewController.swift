@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FlightDisplayViewController.swift
 //  kittyhawk-pfd
 //
 //  Created by Kosuke Hata on 11/3/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FlightDisplayViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

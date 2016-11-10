@@ -1,34 +1,34 @@
 //
-//  JSKROSTalkerNode.mm
+//  ROSTalkerNode.mm
 //  ROSiOS
 //
 //  Created by FurutaYuki on 1/25/15.
 //  Copyright (c) 2015 Furushchev. All rights reserved.
 //
 
-#import "JSKROSTalkerNode.h"
+#import "ROSTalkerNode.h"
 #import <sstream>
 #import <std_msgs/String.h>
 
-JSKROSTalkerNode::JSKROSTalkerNode()
+ROSTalkerNode::ROSTalkerNode()
 {
-    th_ = new boost::thread(&JSKROSTalkerNode::spin, this);
+    th_ = new boost::thread(&ROSTalkerNode::spin, this);
     pub_ = nh_.advertise<std_msgs::String>("chatter", 1000);
 }
 
-JSKROSTalkerNode::~JSKROSTalkerNode()
+ROSTalkerNode::~ROSTalkerNode()
 {
     ros::shutdown();
     th_->join();
     delete th_;
 }
 
-void JSKROSTalkerNode::spin()
+void ROSTalkerNode::spin()
 {
     ros::spin();
 }
 
-std::string JSKROSTalkerNode::publish(int count)
+std::string ROSTalkerNode::publish(int count)
 {
     std_msgs::String msg;
 

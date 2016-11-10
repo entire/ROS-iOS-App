@@ -1,18 +1,18 @@
 //
-//  JSKTopicListTableViewController.mm
+//  TopicListTableViewController.mm
 //  ROSiOSSampleApp
 //
 //  Created by FurutaYuki on 12/27/14.
 //  Copyright (c) 2016 Canopy Group Holdings LLC. All rights reserved.
 //
 
-#import "JSKTopicListTableViewController.h"
+#import "TopicListTableViewController.h"
 #import "JSKTopicListTableViewCell.h"
 #import <ros/master.h>
 
 #define kTopicListTableViewCellIdentifier @"topicListTableViewCellIdentifier"
 
-@interface JSKTopicListTableViewController ()
+@interface TopicListTableViewController ()
 
 @property (nonatomic, strong) NSMutableArray *topicNames;
 @property (nonatomic, strong) NSMutableArray *dataTypes;
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation JSKTopicListTableViewController
+@implementation TopicListTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
