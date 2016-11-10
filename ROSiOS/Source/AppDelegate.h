@@ -1,5 +1,5 @@
 //
-//  JSKAppDelegate.h
+//  AppDelegate.h
 //  ROSiOS
 //
 //  Created by CocoaPods on 01/22/2015.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JSKAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

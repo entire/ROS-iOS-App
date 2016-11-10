@@ -1,5 +1,5 @@
 //
-//  JSKTopicListTableViewController.h
+//  TopicListTableViewController.h
 //  ROSiOSSampleApp
 //
 //  Created by FurutaYuki on 12/27/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JSKTopicListTableViewController : UITableViewController
+@interface TopicListTableViewController : UITableViewController
 
 @end

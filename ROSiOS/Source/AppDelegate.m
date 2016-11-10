@@ -1,21 +1,22 @@
 //
-//  JSKAppDelegate.m
+//  AppDelegate.m
 //  ROSiOS
 //
 //  Created by CocoaPods on 01/22/2015.
 //  Copyright (c) 2016 Canopy Group Holdings LLC. All rights reserved.
 //
 
-#import "JSKAppDelegate.h"
-#import <ROSiOS/ROSConfigurationUtil.h>
+#import "AppDelegate.h"
 
-@implementation JSKAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    /*
     [ROSConfigurationUtil insertROSConfigurationAsInitialInterfaceOfWindow:self.window
-                                                              withNodeName:@"sample_ios_app" // ROS Node Name
+                                                              withNodeName:@"ros_ios" // ROS Node Name
                                                                  anonymous:YES]; // set anonymous option
+     */
     
     return YES;
 }

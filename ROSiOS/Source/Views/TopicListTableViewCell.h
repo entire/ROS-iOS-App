@@ -1,5 +1,5 @@
 //
-//  JSKTopicListTableViewCell.h
+//  TopicListTableViewCell.h
 //  ROSiOSSampleApp
 //
 //  Created by FurutaYuki on 12/27/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JSKTopicListTableViewCell : UITableViewCell
+@interface TopicListTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *topicName;
 @property (weak, nonatomic) IBOutlet UILabel *dataType;
 

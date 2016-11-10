@@ -1,18 +1,18 @@
 //
-//  JSKTopicListTableViewController.mm
+//  TopicListTableViewController.mm
 //  ROSiOSSampleApp
 //
 //  Created by FurutaYuki on 12/27/14.
 //  Copyright (c) 2016 Canopy Group Holdings LLC. All rights reserved.
 //
 
-#import "JSKTopicListTableViewController.h"
-#import "JSKTopicListTableViewCell.h"
+#import "TopicListTableViewController.h"
+#import "TopicListTableViewCell.h"
 #import <ros/master.h>
 
 #define kTopicListTableViewCellIdentifier @"topicListTableViewCellIdentifier"
 
-@interface JSKTopicListTableViewController ()
+@interface TopicListTableViewController ()
 
 @property (nonatomic, strong) NSMutableArray *topicNames;
 @property (nonatomic, strong) NSMutableArray *dataTypes;
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation JSKTopicListTableViewController
+@implementation TopicListTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -62,10 +62,10 @@
     
 //    NSLog(@"tableView: %@", [tableView description]);
     
-    JSKTopicListTableViewCell *cell = (JSKTopicListTableViewCell*)[self.tableView dequeueReusableCellWithIdentifier:kTopicListTableViewCellIdentifier forIndexPath:indexPath];
+    TopicListTableViewCell *cell = (TopicListTableViewCell*)[self.tableView dequeueReusableCellWithIdentifier:kTopicListTableViewCellIdentifier forIndexPath:indexPath];
     
     if (!cell) {
-        cell = [[JSKTopicListTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:kTopicListTableViewCellIdentifier];
+        cell = [[TopicListTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:kTopicListTableViewCellIdentifier];
     }
     
     cell.topicName.text = self.topicNames[[indexPath row]];

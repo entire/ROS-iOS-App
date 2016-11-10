@@ -1,17 +1,17 @@
 //
-//  JSKTalkerViewController.mm
+//  TalkerViewController.mm
 //  ROSiOS
 //
 //  Created by FurutaYuki on 1/25/15.
 //  Copyright (c) 2015 Furushchev. All rights reserved.
 //
 
-#import "JSKTalkerViewController.h"
-#import "JSKROSTalkerNode.h"
+#import "TalkerViewController.h"
+#import "ROSTalkerNode.h"
 
-@interface JSKTalkerViewController ()
+@interface TalkerViewController ()
 {
-    JSKROSTalkerNode *rosTalkerNode_;
+    ROSTalkerNode *rosTalkerNode_;
     NSTimer *timer_;
     int count_;
 }
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation JSKTalkerViewController
+@implementation TalkerViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,7 +34,7 @@
 
     count_ = 0;
     
-    rosTalkerNode_ = new JSKROSTalkerNode();
+    rosTalkerNode_ = new ROSTalkerNode();
     
     timer_ = [NSTimer timerWithTimeInterval:0.1f
                                      target:self

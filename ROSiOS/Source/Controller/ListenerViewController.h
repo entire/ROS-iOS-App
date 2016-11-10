@@ -1,5 +1,5 @@
 //
-//  JSKTalkerViewController.h
+//  ListenerViewController.h
 //  ROSiOS
 //
 //  Created by FurutaYuki on 1/25/15.
@@ -8,5 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JSKTalkerViewController : UIViewController
+@interface ListenerViewController : UIViewController
+- (void)chatterCallback:(NSString*)message;
 @end

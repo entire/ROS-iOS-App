@@ -1,24 +1,24 @@
 //
-//  JSKListenerViewController.mm
+//  ListenerViewController.mm
 //  ROSiOS
 //
 //  Created by FurutaYuki on 1/25/15.
 //  Copyright (c) 2015 Furushchev. All rights reserved.
 //
 
-#import "JSKListenerViewController.h"
-#import "JSKROSListenerNode.h"
+#import "ListenerViewController.h"
+#import "ROSListenerNode.h"
 
-@interface JSKListenerViewController ()
+@interface ListenerViewController ()
 {
-    JSKROSListenerNode *rosListenerNode_;
+    ROSListenerNode *rosListenerNode;
 }
 
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 
 @end
 
-@implementation JSKListenerViewController
+@implementation ListenerViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,13 +33,13 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    rosListenerNode_ = new JSKROSListenerNode();
-    rosListenerNode_->listenerViewController = self;
+    rosListenerNode = new ROSListenerNode();
+    rosListenerNode->listenerViewController = self;
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
-    delete rosListenerNode_;
+    delete rosListenerNode;
     [super viewWillDisappear:animated];
 }
 
