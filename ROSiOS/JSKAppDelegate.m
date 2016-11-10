@@ -14,7 +14,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [ROSConfigurationUtil insertROSConfigurationAsInitialInterfaceOfWindow:self.window
-                                                              withNodeName:@"sample_ios_app" // ROS Node Name
+                                                              withNodeName:@"ros_ios" // ROS Node Name
                                                                  anonymous:YES]; // set anonymous option
     
     return YES;

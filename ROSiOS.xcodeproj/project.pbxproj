@@ -20,7 +20,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		67B5C51D9392BF4597092E87 /* libPods-ROSiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C573CD014F8610246F7681 /* libPods-ROSiOS.a */; };
+		8F5D330F76EC820C14E12D3F /* libPods-ROSiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 960B638E7FC978FB5B2F4487 /* libPods-ROSiOS.a */; };
 		F85648141A7132E000A42326 /* JSKTopicListTableViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F85648111A7132E000A42326 /* JSKTopicListTableViewController.mm */; };
 		F85648151A7132E000A42326 /* JSKTopicListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F85648131A7132E000A42326 /* JSKTopicListTableViewCell.m */; };
 		F85648171A71356E00A42326 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85648161A71356E00A42326 /* LaunchScreen.xib */; };
@@ -43,8 +43,6 @@
 
 /* Begin PBXFileReference section */
 		02FFFB80B2AAAC2E43DAA707 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47C573CD014F8610246F7681 /* libPods-ROSiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BAECA4A02819E9722D3D974 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5EE2C9216CA1688DFA77DCE3 /* Pods-ROSiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROSiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ROSiOS/Pods-ROSiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ROSiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROSiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +63,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		81819354B2790BE311974033 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A901591C0781C92362370417 /* ROSiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ROSiOS.podspec; path = ../ROSiOS.podspec; sourceTree = "<group>"; };
+		960B638E7FC978FB5B2F4487 /* libPods-ROSiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9C435A6567C47C3DE921B6 /* Pods-ROSiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROSiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ROSiOS/Pods-ROSiOS.release.xcconfig"; sourceTree = "<group>"; };
 		F85648101A7132E000A42326 /* JSKTopicListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKTopicListTableViewController.h; sourceTree = "<group>"; };
 		F85648111A7132E000A42326 /* JSKTopicListTableViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKTopicListTableViewController.mm; sourceTree = "<group>"; };
@@ -92,7 +89,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				67B5C51D9392BF4597092E87 /* libPods-ROSiOS.a in Frameworks */,
+				8F5D330F76EC820C14E12D3F /* libPods-ROSiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +118,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* ROSiOS */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -146,8 +142,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				47C573CD014F8610246F7681 /* libPods-ROSiOS.a */,
 				02FFFB80B2AAAC2E43DAA707 /* libPods-Tests.a */,
+				960B638E7FC978FB5B2F4487 /* libPods-ROSiOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,6 +170,7 @@
 				F89FB76C1A74665200087CAB /* JSKTalkerViewController.mm */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				F85648161A71356E00A42326 /* LaunchScreen.xib */,
+				9DBF5AF61DD3F93F00955FC4 /* Library */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			path = ROSiOS;
@@ -209,14 +206,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+		9DBF5AF61DD3F93F00955FC4 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				A901591C0781C92362370417 /* ROSiOS.podspec */,
-				4BAECA4A02819E9722D3D974 /* README.md */,
-				81819354B2790BE311974033 /* LICENSE */,
 			);
-			name = "Podspec Metadata";
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +266,7 @@
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = YP67PBW67S;
+						LastSwiftMigration = 0810;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -524,9 +519,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ROSiOS/ROSiOS-Prefix.pch";
 				INFOPLIST_FILE = "ROSiOS/ROSiOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "jsk.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canopygroup.rosios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -542,9 +538,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ROSiOS/ROSiOS-Prefix.pch";
 				INFOPLIST_FILE = "ROSiOS/ROSiOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "jsk.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canopygroup.rosios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
