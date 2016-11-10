@@ -1,14 +1,14 @@
 //
-//  JSKTopicListTableViewCell.m
+//  TopicListTableViewCell.m
 //  ROSiOSSampleApp
 //
 //  Created by FurutaYuki on 12/27/14.
 //  Copyright (c) 2016 Canopy Group Holdings LLC. All rights reserved.
 //
 
-#import "JSKTopicListTableViewCell.h"
+#import "TopicListTableViewCell.h"
 
-@implementation JSKTopicListTableViewCell
+@implementation TopicListTableViewCell
 
 - (void)awakeFromNib {
     // Initialization code

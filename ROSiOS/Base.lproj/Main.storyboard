@@ -105,7 +105,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="topicListTableViewCellIdentifier" textLabel="5Bb-PU-h3U" detailTextLabel="2IH-jy-fLd" style="IBUITableViewCellStyleSubtitle" id="xgU-X4-BG9" customClass="JSKTopicListTableViewCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="topicListTableViewCellIdentifier" textLabel="5Bb-PU-h3U" detailTextLabel="2IH-jy-fLd" style="IBUITableViewCellStyleSubtitle" id="xgU-X4-BG9" customClass="TopicListTableViewCell">
                                 <rect key="frame" x="0.0" y="22" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xgU-X4-BG9" id="Qco-X5-RVc">

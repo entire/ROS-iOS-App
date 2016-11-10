@@ -7,7 +7,7 @@
 //
 
 #import "TopicListTableViewController.h"
-#import "JSKTopicListTableViewCell.h"
+#import "TopicListTableViewCell.h"
 #import <ros/master.h>
 
 #define kTopicListTableViewCellIdentifier @"topicListTableViewCellIdentifier"
@@ -62,10 +62,10 @@
     
 //    NSLog(@"tableView: %@", [tableView description]);
     
-    JSKTopicListTableViewCell *cell = (JSKTopicListTableViewCell*)[self.tableView dequeueReusableCellWithIdentifier:kTopicListTableViewCellIdentifier forIndexPath:indexPath];
+    TopicListTableViewCell *cell = (TopicListTableViewCell*)[self.tableView dequeueReusableCellWithIdentifier:kTopicListTableViewCellIdentifier forIndexPath:indexPath];
     
     if (!cell) {
-        cell = [[JSKTopicListTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:kTopicListTableViewCellIdentifier];
+        cell = [[TopicListTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:kTopicListTableViewCellIdentifier];
     }
     
     cell.topicName.text = self.topicNames[[indexPath row]];
