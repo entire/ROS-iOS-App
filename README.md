@@ -1,7 +1,5 @@
-# ROS-iOS
+# ROS-Display
 
-This is an example app that runs ROS on iOS
+This is an example app that runs ROS on iOS and connects to a ROS node
 
-# What still needs to be figured out 
-- What a ROS Node is
-- How to connect to an actual device and get data from vehicle
+It also has a Primary flight display that can show the information of the the vehicle on the device.
