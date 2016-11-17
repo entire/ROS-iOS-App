@@ -1,6 +1,6 @@
 //
 //  ConfigurationViewController.mm
-//  ROSiOSSampleApp
+//  ROS-Display
 //
 //  Created by FurutaYuki on 12/22/14.
 //  Copyright (c) 2014 JSK Lab. All rights reserved.

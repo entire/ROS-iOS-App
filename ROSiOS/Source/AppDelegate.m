@@ -3,7 +3,7 @@
 //  ROSiOS
 //
 //  Created by CocoaPods on 01/22/2015.
-//  Copyright (c) 2016 Canopy Group Holdings LLC. All rights reserved.
+//  Copyright (c) 2016 Canopy Robotics. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -17,6 +17,8 @@
     [ROSSetupHandler insertROSConfigurationAsInitialInterfaceOfWindow:self.window
                                                          withNodeName:@"ros_display_ios" // ROS Node Name
                                                             anonymous:YES]; // set anonymous option
+    
+    
     
     return YES;
 }
