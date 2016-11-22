@@ -12,5 +12,8 @@
 
 + (void)insertROSConfigurationAsInitialInterfaceOfWindow:(UIWindow*)window withNodeName:(NSString*)nodeName;
 + (void)insertROSConfigurationAsInitialInterfaceOfWindow:(UIWindow *)window withNodeName:(NSString *)nodeName anonymous:(BOOL)anon;
-    
++ (NSString *)nodeName;
++ (NSString *)getMyIPAddress;
++ (BOOL)isHostValid:(NSString*)host;
+
 @end
