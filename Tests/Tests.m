@@ -2,8 +2,8 @@
 //  ROSiOSTests.m
 //  ROSiOSTests
 //
-//  Created by Kosuke Hata on 01/22/2015.
-//  Copyright (c) 2016 Canopy Group Holdings LLC. All rights reserved.
+//  Created by Furushchev on 01/22/2015.
+//  Copyright (c) 2014 Furushchev. All rights reserved.
 //
 
 ${TEST_EXAMPLE}
