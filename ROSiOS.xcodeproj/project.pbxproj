@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* JSKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* JSKAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* JSKViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* JSKViewController.mm */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		67B5C51D9392BF4597092E87 /* libPods-ROSiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C573CD014F8610246F7681 /* libPods-ROSiOS.a */; };
+		9DE5144E1DEDF11E001C8230 /* Attitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5143C1DEDF11E001C8230 /* Attitude.swift */; };
+		9DE5144F1DEDF11E001C8230 /* AttitudeReferenceIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5143D1DEDF11E001C8230 /* AttitudeReferenceIndex.swift */; };
+		9DE514501DEDF11E001C8230 /* BankIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5143E1DEDF11E001C8230 /* BankIndicator.swift */; };
+		9DE514511DEDF11E001C8230 /* CGFloat+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5143F1DEDF11E001C8230 /* CGFloat+Additions.swift */; };
+		9DE514521DEDF11E001C8230 /* CGSize+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE514401DEDF11E001C8230 /* CGSize+Additions.swift */; };
+		9DE514531DEDF11E001C8230 /* Double+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE514411DEDF11E001C8230 /* Double+Additions.swift */; };
+		9DE514541DEDF11E001C8230 /* Horizon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE514421DEDF11E001C8230 /* Horizon.swift */; };
+		9DE514551DEDF11E001C8230 /* Int+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE514431DEDF11E001C8230 /* Int+Additions.swift */; };
+		9DE514561DEDF11E001C8230 /* PitchLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE514441DEDF11E001C8230 /* PitchLadder.swift */; };
+		9DE514571DEDF11E001C8230 /* PrimaryFlightDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE514461DEDF11E001C8230 /* PrimaryFlightDisplay.swift */; };
+		9DE514581DEDF11E001C8230 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE514471DEDF11E001C8230 /* Settings.swift */; };
+		9DE514591DEDF11E001C8230 /* TapeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE514481DEDF11E001C8230 /* TapeCell.swift */; };
+		9DE5145A1DEDF11E001C8230 /* TapeCellContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE514491DEDF11E001C8230 /* TapeCellContainer.swift */; };
+		9DE5145B1DEDF11E001C8230 /* TapeCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5144A1DEDF11E001C8230 /* TapeCellModel.swift */; };
+		9DE5145C1DEDF11E001C8230 /* TapeCellTriad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5144B1DEDF11E001C8230 /* TapeCellTriad.swift */; };
+		9DE5145D1DEDF11E001C8230 /* TapeIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5144C1DEDF11E001C8230 /* TapeIndicator.swift */; };
+		9DE5145E1DEDF11E001C8230 /* TapePointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5144D1DEDF11E001C8230 /* TapePointer.swift */; };
+		9DE514631DEDF3D2001C8230 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE514621DEDF3D2001C8230 /* SpriteKit.framework */; };
+		9DE514651DEDF3EC001C8230 /* PrimaryFlightDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE514641DEDF3EC001C8230 /* PrimaryFlightDisplayViewController.swift */; };
+		9DE5146D1DEDF5DA001C8230 /* FlightDisplay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE5146C1DEDF5DA001C8230 /* FlightDisplay.storyboard */; };
+		9DE514731DEDF89E001C8230 /* ConfigurationViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5146F1DEDF89E001C8230 /* ConfigurationViewController.mm */; };
+		9DE514741DEDF89E001C8230 /* ROSConfigurationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE514711DEDF89E001C8230 /* ROSConfigurationUtil.m */; };
+		9DE514751DEDF89E001C8230 /* Configuration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE514721DEDF89E001C8230 /* Configuration.storyboard */; };
+		F85648141A7132E000A42326 /* JSKTopicListTableViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F85648111A7132E000A42326 /* JSKTopicListTableViewController.mm */; };
+		F85648151A7132E000A42326 /* JSKTopicListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F85648131A7132E000A42326 /* JSKTopicListTableViewCell.m */; };
+		F85648171A71356E00A42326 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85648161A71356E00A42326 /* LaunchScreen.xib */; };
+		F856481A1A7135F400A42326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85648181A7135F400A42326 /* Main.storyboard */; };
+		F89FB76A1A7462E700087CAB /* JSKROSTalkerNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = F89FB7691A7462E700087CAB /* JSKROSTalkerNode.mm */; };
+		F89FB76D1A74665200087CAB /* JSKTalkerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F89FB76C1A74665200087CAB /* JSKTalkerViewController.mm */; };
+		F89FB7701A746ED300087CAB /* JSKListenerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F89FB76F1A746ED300087CAB /* JSKListenerViewController.mm */; };
+		F89FB7761A746F0C00087CAB /* JSKROSListenerNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = F89FB7751A746F0C00087CAB /* JSKROSListenerNode.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = ROSiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FFFB80B2AAAC2E43DAA707 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C573CD014F8610246F7681 /* libPods-ROSiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BAECA4A02819E9722D3D974 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5EE2C9216CA1688DFA77DCE3 /* Pods-ROSiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROSiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ROSiOS/Pods-ROSiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* ROSiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROSiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* ROSiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ROSiOS-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* ROSiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ROSiOS-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* JSKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSKAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* JSKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSKAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* JSKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSKViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* JSKViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKViewController.mm; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		81819354B2790BE311974033 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9DE5143C1DEDF11E001C8230 /* Attitude.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attitude.swift; sourceTree = "<group>"; };
+		9DE5143D1DEDF11E001C8230 /* AttitudeReferenceIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttitudeReferenceIndex.swift; sourceTree = "<group>"; };
+		9DE5143E1DEDF11E001C8230 /* BankIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankIndicator.swift; sourceTree = "<group>"; };
+		9DE5143F1DEDF11E001C8230 /* CGFloat+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Additions.swift"; sourceTree = "<group>"; };
+		9DE514401DEDF11E001C8230 /* CGSize+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Additions.swift"; sourceTree = "<group>"; };
+		9DE514411DEDF11E001C8230 /* Double+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Additions.swift"; sourceTree = "<group>"; };
+		9DE514421DEDF11E001C8230 /* Horizon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Horizon.swift; sourceTree = "<group>"; };
+		9DE514431DEDF11E001C8230 /* Int+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Additions.swift"; sourceTree = "<group>"; };
+		9DE514441DEDF11E001C8230 /* PitchLadder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PitchLadder.swift; sourceTree = "<group>"; };
+		9DE514451DEDF11E001C8230 /* PrimaryFlightDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimaryFlightDisplay.h; sourceTree = "<group>"; };
+		9DE514461DEDF11E001C8230 /* PrimaryFlightDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryFlightDisplay.swift; sourceTree = "<group>"; };
+		9DE514471DEDF11E001C8230 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		9DE514481DEDF11E001C8230 /* TapeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapeCell.swift; sourceTree = "<group>"; };
+		9DE514491DEDF11E001C8230 /* TapeCellContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapeCellContainer.swift; sourceTree = "<group>"; };
+		9DE5144A1DEDF11E001C8230 /* TapeCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapeCellModel.swift; sourceTree = "<group>"; };
+		9DE5144B1DEDF11E001C8230 /* TapeCellTriad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapeCellTriad.swift; sourceTree = "<group>"; };
+		9DE5144C1DEDF11E001C8230 /* TapeIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapeIndicator.swift; sourceTree = "<group>"; };
+		9DE5144D1DEDF11E001C8230 /* TapePointer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapePointer.swift; sourceTree = "<group>"; };
+		9DE514621DEDF3D2001C8230 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		9DE514641DEDF3EC001C8230 /* PrimaryFlightDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryFlightDisplayViewController.swift; sourceTree = "<group>"; };
+		9DE514691DEDF53A001C8230 /* ROSiOS-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ROSiOS-Swift.h"; sourceTree = "<group>"; };
+		9DE5146C1DEDF5DA001C8230 /* FlightDisplay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FlightDisplay.storyboard; sourceTree = "<group>"; };
+		9DE5146E1DEDF89E001C8230 /* ConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationViewController.h; sourceTree = "<group>"; };
+		9DE5146F1DEDF89E001C8230 /* ConfigurationViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ConfigurationViewController.mm; sourceTree = "<group>"; };
+		9DE514701DEDF89E001C8230 /* ROSConfigurationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROSConfigurationUtil.h; sourceTree = "<group>"; };
+		9DE514711DEDF89E001C8230 /* ROSConfigurationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROSConfigurationUtil.m; sourceTree = "<group>"; };
+		9DE514721DEDF89E001C8230 /* Configuration.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Configuration.storyboard; sourceTree = "<group>"; };
+		A901591C0781C92362370417 /* ROSiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ROSiOS.podspec; path = ../ROSiOS.podspec; sourceTree = "<group>"; };
+		BA9C435A6567C47C3DE921B6 /* Pods-ROSiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROSiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ROSiOS/Pods-ROSiOS.release.xcconfig"; sourceTree = "<group>"; };
+		F85648101A7132E000A42326 /* JSKTopicListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKTopicListTableViewController.h; sourceTree = "<group>"; };
+		F85648111A7132E000A42326 /* JSKTopicListTableViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKTopicListTableViewController.mm; sourceTree = "<group>"; };
+		F85648121A7132E000A42326 /* JSKTopicListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKTopicListTableViewCell.h; sourceTree = "<group>"; };
+		F85648131A7132E000A42326 /* JSKTopicListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSKTopicListTableViewCell.m; sourceTree = "<group>"; };
+		F85648161A71356E00A42326 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		F85648191A7135F400A42326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ROSiOS/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F89FB7681A7462E700087CAB /* JSKROSTalkerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSKROSTalkerNode.h; path = ROSNodeHandler/JSKROSTalkerNode.h; sourceTree = "<group>"; };
+		F89FB7691A7462E700087CAB /* JSKROSTalkerNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JSKROSTalkerNode.mm; path = ROSNodeHandler/JSKROSTalkerNode.mm; sourceTree = "<group>"; };
+		F89FB76B1A74665200087CAB /* JSKTalkerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKTalkerViewController.h; sourceTree = "<group>"; };
+		F89FB76C1A74665200087CAB /* JSKTalkerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKTalkerViewController.mm; sourceTree = "<group>"; };
+		F89FB76E1A746ED300087CAB /* JSKListenerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSKListenerViewController.h; sourceTree = "<group>"; };
+		F89FB76F1A746ED300087CAB /* JSKListenerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSKListenerViewController.mm; sourceTree = "<group>"; };
+		F89FB7741A746F0C00087CAB /* JSKROSListenerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSKROSListenerNode.h; path = ROSNodeHandler/JSKROSListenerNode.h; sourceTree = "<group>"; };
+		F89FB7751A746F0C00087CAB /* JSKROSListenerNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JSKROSListenerNode.mm; path = ROSNodeHandler/JSKROSListenerNode.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE514631DEDF3D2001C8230 /* SpriteKit.framework in Frameworks */,
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				67B5C51D9392BF4597092E87 /* libPods-ROSiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22340A55430A4B39F9A7ADC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EE2C9216CA1688DFA77DCE3 /* Pods-ROSiOS.debug.xcconfig */,
+				BA9C435A6567C47C3DE921B6 /* Pods-ROSiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* ROSiOS */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				22340A55430A4B39F9A7ADC6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* ROSiOS.app */,
+				6003F5AE195388D20070C39A /* Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DE514621DEDF3D2001C8230 /* SpriteKit.framework */,
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				47C573CD014F8610246F7681 /* libPods-ROSiOS.a */,
+				02FFFB80B2AAAC2E43DAA707 /* libPods-Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* ROSiOS */ = {
+			isa = PBXGroup;
+			children = (
+				6003F59C195388D20070C39A /* JSKAppDelegate.h */,
+				6003F59D195388D20070C39A /* JSKAppDelegate.m */,
+				6003F5A5195388D20070C39A /* JSKViewController.h */,
+				6003F5A6195388D20070C39A /* JSKViewController.mm */,
+				9DE5146E1DEDF89E001C8230 /* ConfigurationViewController.h */,
+				9DE5146F1DEDF89E001C8230 /* ConfigurationViewController.mm */,
+				9DE514701DEDF89E001C8230 /* ROSConfigurationUtil.h */,
+				9DE514711DEDF89E001C8230 /* ROSConfigurationUtil.m */,
+				9DE514641DEDF3EC001C8230 /* PrimaryFlightDisplayViewController.swift */,
+				F85648101A7132E000A42326 /* JSKTopicListTableViewController.h */,
+				F85648111A7132E000A42326 /* JSKTopicListTableViewController.mm */,
+				F85648121A7132E000A42326 /* JSKTopicListTableViewCell.h */,
+				F85648131A7132E000A42326 /* JSKTopicListTableViewCell.m */,
+				F89FB7741A746F0C00087CAB /* JSKROSListenerNode.h */,
+				F89FB7751A746F0C00087CAB /* JSKROSListenerNode.mm */,
+				F89FB76E1A746ED300087CAB /* JSKListenerViewController.h */,
+				F89FB76F1A746ED300087CAB /* JSKListenerViewController.mm */,
+				F89FB7681A7462E700087CAB /* JSKROSTalkerNode.h */,
+				F89FB7691A7462E700087CAB /* JSKROSTalkerNode.mm */,
+				F89FB76B1A74665200087CAB /* JSKTalkerViewController.h */,
+				F89FB76C1A74665200087CAB /* JSKTalkerViewController.mm */,
+				9DE514761DEDF9C3001C8230 /* Storyboard */,
+				9DE5143A1DEDF11E001C8230 /* Library */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			path = ROSiOS;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DE514691DEDF53A001C8230 /* ROSiOS-Swift.h */,
+				6003F595195388D20070C39A /* ROSiOS-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* ROSiOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				A901591C0781C92362370417 /* ROSiOS.podspec */,
+				4BAECA4A02819E9722D3D974 /* README.md */,
+				81819354B2790BE311974033 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		9DE5143A1DEDF11E001C8230 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				9DE5143B1DEDF11E001C8230 /* PrimaryFlightDisplay */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		9DE5143B1DEDF11E001C8230 /* PrimaryFlightDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				9DE5143C1DEDF11E001C8230 /* Attitude.swift */,
+				9DE5143D1DEDF11E001C8230 /* AttitudeReferenceIndex.swift */,
+				9DE5143E1DEDF11E001C8230 /* BankIndicator.swift */,
+				9DE5143F1DEDF11E001C8230 /* CGFloat+Additions.swift */,
+				9DE514401DEDF11E001C8230 /* CGSize+Additions.swift */,
+				9DE514411DEDF11E001C8230 /* Double+Additions.swift */,
+				9DE514421DEDF11E001C8230 /* Horizon.swift */,
+				9DE514431DEDF11E001C8230 /* Int+Additions.swift */,
+				9DE514441DEDF11E001C8230 /* PitchLadder.swift */,
+				9DE514451DEDF11E001C8230 /* PrimaryFlightDisplay.h */,
+				9DE514461DEDF11E001C8230 /* PrimaryFlightDisplay.swift */,
+				9DE514471DEDF11E001C8230 /* Settings.swift */,
+				9DE514481DEDF11E001C8230 /* TapeCell.swift */,
+				9DE514491DEDF11E001C8230 /* TapeCellContainer.swift */,
+				9DE5144A1DEDF11E001C8230 /* TapeCellModel.swift */,
+				9DE5144B1DEDF11E001C8230 /* TapeCellTriad.swift */,
+				9DE5144C1DEDF11E001C8230 /* TapeIndicator.swift */,
+				9DE5144D1DEDF11E001C8230 /* TapePointer.swift */,
+			);
+			path = PrimaryFlightDisplay;
+			sourceTree = "<group>";
+		};
+		9DE514761DEDF9C3001C8230 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9DE514721DEDF89E001C8230 /* Configuration.storyboard */,
+				F85648181A7135F400A42326 /* Main.storyboard */,
+				9DE5146C1DEDF5DA001C8230 /* FlightDisplay.storyboard */,
+				F85648161A71356E00A42326 /* LaunchScreen.xib */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* ROSiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ROSiOS" */;
+			buildPhases = (
+				30548233064A33F8FBDC4910 /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				EC769B8F265E44D30CE17959 /* [CP] Copy Pods Resources */,
+				9241BC4C8C4821F58614268C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ROSiOS;
+			productName = ROSiOS;
+			productReference = 6003F58A195388D20070C39A /* ROSiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = ROSiOSTests;
+			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JSK;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Furushchev;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = YP67PBW67S;
+						LastSwiftMigration = 0810;
+					};
+					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0810;
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ROSiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* ROSiOS */,
+				6003F5AD195388D20070C39A /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85648171A71356E00A42326 /* LaunchScreen.xib in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				9DE5146D1DEDF5DA001C8230 /* FlightDisplay.storyboard in Resources */,
+				9DE514751DEDF89E001C8230 /* Configuration.storyboard in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				F856481A1A7135F400A42326 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30548233064A33F8FBDC4910 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9241BC4C8C4821F58614268C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROSiOS/Pods-ROSiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC769B8F265E44D30CE17959 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROSiOS/Pods-ROSiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F59E195388D20070C39A /* JSKAppDelegate.m in Sources */,
+				9DE514541DEDF11E001C8230 /* Horizon.swift in Sources */,
+				9DE5144E1DEDF11E001C8230 /* Attitude.swift in Sources */,
+				9DE514741DEDF89E001C8230 /* ROSConfigurationUtil.m in Sources */,
+				9DE514591DEDF11E001C8230 /* TapeCell.swift in Sources */,
+				9DE5145C1DEDF11E001C8230 /* TapeCellTriad.swift in Sources */,
+				9DE514651DEDF3EC001C8230 /* PrimaryFlightDisplayViewController.swift in Sources */,
+				9DE5145E1DEDF11E001C8230 /* TapePointer.swift in Sources */,
+				F85648141A7132E000A42326 /* JSKTopicListTableViewController.mm in Sources */,
+				F89FB76A1A7462E700087CAB /* JSKROSTalkerNode.mm in Sources */,
+				F89FB7701A746ED300087CAB /* JSKListenerViewController.mm in Sources */,
+				9DE514531DEDF11E001C8230 /* Double+Additions.swift in Sources */,
+				9DE514571DEDF11E001C8230 /* PrimaryFlightDisplay.swift in Sources */,
+				F89FB76D1A74665200087CAB /* JSKTalkerViewController.mm in Sources */,
+				9DE514731DEDF89E001C8230 /* ConfigurationViewController.mm in Sources */,
+				6003F5A7195388D20070C39A /* JSKViewController.mm in Sources */,
+				9DE514551DEDF11E001C8230 /* Int+Additions.swift in Sources */,
+				9DE5145D1DEDF11E001C8230 /* TapeIndicator.swift in Sources */,
+				9DE514501DEDF11E001C8230 /* BankIndicator.swift in Sources */,
+				9DE5145A1DEDF11E001C8230 /* TapeCellContainer.swift in Sources */,
+				F85648151A7132E000A42326 /* JSKTopicListTableViewCell.m in Sources */,
+				9DE5145B1DEDF11E001C8230 /* TapeCellModel.swift in Sources */,
+				9DE514511DEDF11E001C8230 /* CGFloat+Additions.swift in Sources */,
+				9DE514581DEDF11E001C8230 /* Settings.swift in Sources */,
+				9DE514521DEDF11E001C8230 /* CGSize+Additions.swift in Sources */,
+				9DE5144F1DEDF11E001C8230 /* AttitudeReferenceIndex.swift in Sources */,
+				F89FB7761A746F0C00087CAB /* JSKROSListenerNode.mm in Sources */,
+				9DE514561DEDF11E001C8230 /* PitchLadder.swift in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* ROSiOS */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F85648181A7135F400A42326 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85648191A7135F400A42326 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE2C9216CA1688DFA77DCE3 /* Pods-ROSiOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YP67PBW67S;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ROSiOS/ROSiOS-Prefix.pch";
+				INFOPLIST_FILE = "ROSiOS/ROSiOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jsk.demo.ROSiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA9C435A6567C47C3DE921B6 /* Pods-ROSiOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YP67PBW67S;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ROSiOS/ROSiOS-Prefix.pch";
+				INFOPLIST_FILE = "ROSiOS/ROSiOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jsk.demo.ROSiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ROSiOS.app/ROSiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ROSiOS.app/ROSiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "ROSiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ROSiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}
